@@ -1,0 +1,8291 @@
+{
+ "_meta": {
+  "source": "sganggs/Stronghold-Protocol data/versions/act3autochess-v3_1 chess.json+bonds.json",
+  "commit": "55f528e9fc4872388360ee85e13eca8594856204",
+  "generated": "2026-11-17",
+  "confidence": "C",
+  "provisional": true,
+  "filter": "isGolden=false & visible=true & stats non-null; excluded 12 DIY placeholders + 2 hidden",
+  "note": "bonds=Chinese names; power=atk*5+hp+def*3+res*3; golden stats inline for promotion value; chessType PRESET/NORMAL semantics unverified (both visible, both in pool per sample evidence)",
+  "snapshot": "E:/garrison-ai/data/repo_snapshot/act3autochess-v3_1 (16 json, commit 55f528e9fc48)"
+ },
+ "operators": {
+  "折桠": {
+   "chessId": "chess_char_1_01_a",
+   "charId": "char_4207_branch",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "不屈"
+   ],
+   "profession": "TANK",
+   "subProfession": "不屈者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2849,
+    "atk": 637,
+    "def": 392,
+    "res": 10,
+    "cost": 31,
+    "blockCnt": 3,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "生存决心",
+    "spCost": 24,
+    "initSp": 0,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_01_b",
+    "stats": {
+     "maxHp": 3824,
+     "atk": 792,
+     "def": 528,
+     "res": 10,
+     "cost": 33,
+     "blockCnt": 3,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "艾丝黛尔": {
+   "chessId": "chess_char_1_02_a",
+   "charId": "char_127_estell",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "独行"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "强攻手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2040,
+    "atk": 512,
+    "def": 252,
+    "res": 0,
+    "cost": 18,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "攻击力强化·β型",
+    "spCost": 37,
+    "initSp": 0,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_02_b",
+    "stats": {
+     "maxHp": 2589,
+     "atk": 674,
+     "def": 298,
+     "res": 0,
+     "cost": 20,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "幽灵鲨": {
+   "chessId": "chess_char_1_03_a",
+   "charId": "char_143_ghost",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "强攻手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1878,
+    "atk": 547,
+    "def": 274,
+    "res": 0,
+    "cost": 19,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "攻击力强化·γ型",
+    "spCost": 37,
+    "initSp": 5,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_03_b",
+    "stats": {
+     "maxHp": 2380,
+     "atk": 720,
+     "def": 361,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "野鬃": {
+   "chessId": "chess_char_1_04_a",
+   "charId": "char_496_wildmn",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "助力"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "冲锋手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1482,
+    "atk": 443,
+    "def": 290,
+    "res": 0,
+    "cost": 11,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "夹枪冲锋",
+    "spCost": 40,
+    "initSp": 20,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_04_b",
+    "stats": {
+     "maxHp": 1971,
+     "atk": 564,
+     "def": 347,
+     "res": 0,
+     "cost": 11,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 103,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "慕斯": {
+   "chessId": "chess_char_1_05_a",
+   "charId": "char_185_frncat",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1750,
+    "atk": 531,
+    "def": 290,
+    "res": 10,
+    "cost": 18,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "挠伤",
+    "spCost": 5,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_1_05_b",
+    "stats": {
+     "maxHp": 2342,
+     "atk": 653,
+     "def": 339,
+     "res": 15,
+     "cost": 18,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "角峰": {
+   "chessId": "chess_char_1_06_a",
+   "charId": "char_199_yak",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2466,
+    "atk": 313,
+    "def": 478,
+    "res": 5,
+    "cost": 17,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "抗寒体质",
+    "spCost": 47,
+    "initSp": 0,
+    "duration": 27,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_06_b",
+    "stats": {
+     "maxHp": 3404,
+     "atk": 358,
+     "def": 648,
+     "res": 5,
+     "cost": 19,
+     "blockCnt": 4,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "灰喉": {
+   "chessId": "chess_char_1_07_a",
+   "charId": "char_367_swllow",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "精准"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "速射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1165,
+    "atk": 415,
+    "def": 120,
+    "res": 0,
+    "cost": 11,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "回流",
+    "spCost": 37,
+    "initSp": 11,
+    "duration": 16,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_07_b",
+    "stats": {
+     "maxHp": 1491,
+     "atk": 525,
+     "def": 143,
+     "res": 0,
+     "cost": 11,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "深靛": {
+   "chessId": "chess_char_1_08_a",
+   "charId": "char_469_indigo",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚"
+   ],
+   "profession": "CASTER",
+   "subProfession": "秘术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1139,
+    "atk": 921,
+    "def": 102,
+    "res": 20,
+    "cost": 21,
+    "blockCnt": 1,
+    "bat": 3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "光影迷宫",
+    "spCost": 47,
+    "initSp": 10,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_08_b",
+    "stats": {
+     "maxHp": 1356,
+     "atk": 1135,
+     "def": 113,
+     "res": 20,
+     "cost": 21,
+     "blockCnt": 1,
+     "bat": 3,
+     "aspd": 103,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "卡达": {
+   "chessId": "chess_char_1_09_a",
+   "charId": "char_328_cammou",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "驭械术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1073,
+    "atk": 259,
+    "def": 98,
+    "res": 15,
+    "cost": 18,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 106,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "同步索敌攻击",
+    "spCost": 45,
+    "initSp": 5,
+    "duration": 23,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_09_b",
+    "stats": {
+     "maxHp": 1340,
+     "atk": 315,
+     "def": 124,
+     "res": 20,
+     "cost": 18,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 106,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "摆渡人": {
+   "chessId": "chess_char_1_10_a",
+   "charId": "char_4166_varkis",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "坚守",
+    "不屈"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "强攻手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1872,
+    "atk": 544,
+    "def": 258,
+    "res": 0,
+    "cost": 20,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "同胞的意志",
+    "spCost": 52,
+    "initSp": 25,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_10_b",
+    "stats": {
+     "maxHp": 2493,
+     "atk": 739,
+     "def": 310,
+     "res": 0,
+     "cost": 22,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "夏栎": {
+   "chessId": "chess_char_1_11_a",
+   "charId": "char_492_quercu",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "助力"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "护佑者",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1396,
+    "atk": 366,
+    "def": 143,
+    "res": 20,
+    "cost": 10,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "生灵的回响",
+    "spCost": 32,
+    "initSp": 11,
+    "duration": 13,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_11_b",
+    "stats": {
+     "maxHp": 1759,
+     "atk": 448,
+     "def": 174,
+     "res": 25,
+     "cost": 10,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "杰克": {
+   "chessId": "chess_char_1_12_a",
+   "charId": "char_347_jaksel",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "斗士",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1913,
+    "atk": 440,
+    "def": 252,
+    "res": 0,
+    "cost": 7,
+    "blockCnt": 1,
+    "bat": 0.78,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "给你一拳！",
+    "spCost": 4,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_1_12_b",
+    "stats": {
+     "maxHp": 2374,
+     "atk": 541,
+     "def": 304,
+     "res": 0,
+     "cost": 7,
+     "blockCnt": 1,
+     "bat": 0.78,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "霜叶": {
+   "chessId": "chess_char_1_13_a",
+   "charId": "char_193_frostl",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "灵巧"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "领主",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1749,
+    "atk": 523,
+    "def": 263,
+    "res": 10,
+    "cost": 16,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 108,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "凝冰枪刃",
+    "spCost": 57,
+    "initSp": 0,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_13_b",
+    "stats": {
+     "maxHp": 2122,
+     "atk": 657,
+     "def": 329,
+     "res": 10,
+     "cost": 16,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 108,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "拜松": {
+   "chessId": "chess_char_1_14_a",
+   "charId": "char_325_bison",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎"
+   ],
+   "profession": "TANK",
+   "subProfession": "铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2396,
+    "atk": 304,
+    "def": 474,
+    "res": 0,
+    "cost": 19,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "防御力强化·γ型",
+    "spCost": 40,
+    "initSp": 5,
+    "duration": 40,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_14_b",
+    "stats": {
+     "maxHp": 3251,
+     "atk": 353,
+     "def": 686,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "褐果": {
+   "chessId": "chess_char_1_15_a",
+   "charId": "char_4041_chnut",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "行医",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 964,
+    "atk": 319,
+    "def": 79,
+    "res": 10,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "积微成著",
+    "spCost": 17,
+    "initSp": 4,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_15_b",
+    "stats": {
+     "maxHp": 1141,
+     "atk": 396,
+     "def": 95,
+     "res": 10,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "烈夏": {
+   "chessId": "chess_char_1_16_a",
+   "charId": "char_194_leto",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "领主",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1707,
+    "atk": 548,
+    "def": 297,
+    "res": 10,
+    "cost": 17,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "一呼百应",
+    "spCost": 43,
+    "initSp": 9,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_16_b",
+    "stats": {
+     "maxHp": 2098,
+     "atk": 697,
+     "def": 376,
+     "res": 10,
+     "cost": 17,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "陨星": {
+   "chessId": "chess_char_1_17_a",
+   "charId": "char_219_meteo",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "迅捷"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "炮手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1152,
+    "atk": 680,
+    "def": 93,
+    "res": 0,
+    "cost": 24,
+    "blockCnt": 1,
+    "bat": 2.8,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "霰射弹头",
+    "spCost": 4,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_1_17_b",
+    "stats": {
+     "maxHp": 1491,
+     "atk": 864,
+     "def": 109,
+     "res": 0,
+     "cost": 26,
+     "blockCnt": 1,
+     "bat": 2.8,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "拉普兰德": {
+   "chessId": "chess_char_1_18_a",
+   "charId": "char_140_whitew",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "领主",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1759,
+    "atk": 551,
+    "def": 288,
+    "res": 10,
+    "cost": 17,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "狼魂",
+    "spCost": 27,
+    "initSp": 0,
+    "duration": 15,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_1_18_b",
+    "stats": {
+     "maxHp": 2272,
+     "atk": 680,
+     "def": 341,
+     "res": 15,
+     "cost": 17,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 104,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "地灵": {
+   "chessId": "chess_char_1_19_a",
+   "charId": "char_183_skgoat",
+   "tier": 1,
+   "chessType": "PRESET",
+   "price": 2,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "独行"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 946,
+    "atk": 411,
+    "def": 83,
+    "res": 15,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 55,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "攻击力强化·β型",
+    "spCost": 37,
+    "initSp": 0,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_1_19_b",
+    "stats": {
+     "maxHp": 1225,
+     "atk": 477,
+     "def": 116,
+     "res": 20,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "折光": {
+   "chessId": "chess_char_2_01_a",
+   "charId": "char_499_kaitou",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚"
+   ],
+   "profession": "CASTER",
+   "subProfession": "本源术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 948,
+    "atk": 496,
+    "def": 89,
+    "res": 10,
+    "cost": 18,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "热处理变色",
+    "spCost": 40,
+    "initSp": 10,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_01_b",
+    "stats": {
+     "maxHp": 1265,
+     "atk": 609,
+     "def": 105,
+     "res": 15,
+     "cost": 18,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "蓝毒": {
+   "chessId": "chess_char_2_02_a",
+   "charId": "char_129_bluep",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "速射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 953,
+    "atk": 442,
+    "def": 104,
+    "res": 5,
+    "cost": 11,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "二重射击·自动",
+    "spCost": 3,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_2_02_b",
+    "stats": {
+     "maxHp": 1152,
+     "atk": 548,
+     "def": 123,
+     "res": 5,
+     "cost": 11,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 102,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "泡泡": {
+   "chessId": "chess_char_2_03_a",
+   "charId": "char_381_bubble",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2391,
+    "atk": 314,
+    "def": 495,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“挨打”",
+    "spCost": 50,
+    "initSp": 0,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_03_b",
+    "stats": {
+     "maxHp": 3373,
+     "atk": 358,
+     "def": 682,
+     "res": 0,
+     "cost": 19,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "莎草": {
+   "chessId": "chess_char_2_04_a",
+   "charId": "char_4139_papyrs",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "链愈师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1440,
+    "atk": 338,
+    "def": 124,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "巧思乍现",
+    "spCost": 9,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_2_04_b",
+    "stats": {
+     "maxHp": 1639,
+     "atk": 450,
+     "def": 173,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "雪猎": {
+   "chessId": "chess_char_2_05_a",
+   "charId": "char_4211_snhunt",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "精准"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "猎手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1274,
+    "atk": 831,
+    "def": 171,
+    "res": 0,
+    "cost": 15,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "风雪连弩",
+    "spCost": 20,
+    "initSp": 7,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_05_b",
+    "stats": {
+     "maxHp": 1725,
+     "atk": 1013,
+     "def": 208,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "砾": {
+   "chessId": "chess_char_2_06_a",
+   "charId": "char_237_gravel",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "不屈"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "处决者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1267,
+    "atk": 352,
+    "def": 281,
+    "res": 0,
+    "cost": 6,
+    "blockCnt": 1,
+    "bat": 0.93,
+    "aspd": 100,
+    "respawnTime": 16,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "影袭",
+    "spCost": 0,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "PASSIVE"
+   },
+   "golden": {
+    "chessId": "chess_char_2_06_b",
+    "stats": {
+     "maxHp": 1612,
+     "atk": 430,
+     "def": 363,
+     "res": 0,
+     "cost": 6,
+     "blockCnt": 1,
+     "bat": 0.93,
+     "aspd": 100,
+     "respawnTime": 16,
+     "deployLimit": 1
+    }
+   }
+  },
+  "复奏": {
+   "chessId": "chess_char_2_07_a",
+   "charId": "char_4031_liesel",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "叙拉古",
+    "奇迹"
+   ],
+   "profession": "CASTER",
+   "subProfession": "扩散术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1174,
+    "atk": 670,
+    "def": 101,
+    "res": 15,
+    "cost": 31,
+    "blockCnt": 1,
+    "bat": 2.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "直到终曲",
+    "spCost": 15,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_07_b",
+    "stats": {
+     "maxHp": 1517,
+     "atk": 832,
+     "def": 119,
+     "res": 20,
+     "cost": 23,
+     "blockCnt": 1,
+     "bat": 2.9,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "奥斯塔": {
+   "chessId": "chess_char_2_08_a",
+   "charId": "char_346_aosta",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "散射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1728,
+    "atk": 587,
+    "def": 167,
+    "res": 0,
+    "cost": 29,
+    "blockCnt": 1,
+    "bat": 2.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "影钉",
+    "spCost": 57,
+    "initSp": 15,
+    "duration": 21,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_08_b",
+    "stats": {
+     "maxHp": 2308,
+     "atk": 717,
+     "def": 186,
+     "res": 0,
+     "cost": 29,
+     "blockCnt": 1,
+     "bat": 2.3,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "Miss.Christine": {
+   "chessId": "chess_char_2_09_a",
+   "charId": "char_4198_christ",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "本源术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 960,
+    "atk": 469,
+    "def": 93,
+    "res": 10,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "狂饮之宴",
+    "spCost": 42,
+    "initSp": 5,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_09_b",
+    "stats": {
+     "maxHp": 1279,
+     "atk": 581,
+     "def": 111,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "哈洛德": {
+   "chessId": "chess_char_2_10_a",
+   "charId": "char_4114_harold",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "谢拉格"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "行医",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1176,
+    "atk": 295,
+    "def": 78,
+    "res": 10,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "重症优先",
+    "spCost": 37,
+    "initSp": 13,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_10_b",
+    "stats": {
+     "maxHp": 1408,
+     "atk": 381,
+     "def": 94,
+     "res": 10,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "云迹": {
+   "chessId": "chess_char_2_11_a",
+   "charId": "char_4165_ctrail",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "灵巧",
+    "奇迹"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "巡空者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1781,
+    "atk": 571,
+    "def": 310,
+    "res": 0,
+    "cost": 14,
+    "blockCnt": 2,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "掠空飞翎",
+    "spCost": 19,
+    "initSp": 5,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_11_b",
+    "stats": {
+     "maxHp": 2152,
+     "atk": 685,
+     "def": 375,
+     "res": 0,
+     "cost": 14,
+     "blockCnt": 2,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "蛇屠箱": {
+   "chessId": "chess_char_2_12_a",
+   "charId": "char_150_snakek",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2173,
+    "atk": 310,
+    "def": 530,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "壳状防御",
+    "spCost": 40,
+    "initSp": 0,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_12_b",
+    "stats": {
+     "maxHp": 3032,
+     "atk": 353,
+     "def": 736,
+     "res": 0,
+     "cost": 19,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "波登可": {
+   "chessId": "chess_char_2_13_a",
+   "charId": "char_258_podego",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "聚合",
+    "迅捷"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 930,
+    "atk": 429,
+    "def": 80,
+    "res": 15,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "孢子扩散",
+    "spCost": 32,
+    "initSp": 10,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_13_b",
+    "stats": {
+     "maxHp": 1182,
+     "atk": 520,
+     "def": 93,
+     "res": 20,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "承曦格雷伊": {
+   "chessId": "chess_char_2_14_a",
+   "charId": "char_1027_greyy2",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "精准",
+    "灵巧"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "投掷手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1274,
+    "atk": 549,
+    "def": 190,
+    "res": 10,
+    "cost": 22,
+    "blockCnt": 1,
+    "bat": 2.1,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "晨曦信标",
+    "spCost": 30,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_14_b",
+    "stats": {
+     "maxHp": 1758,
+     "atk": 650,
+     "def": 236,
+     "res": 15,
+     "cost": 22,
+     "blockCnt": 1,
+     "bat": 2.1,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "锡人": {
+   "chessId": "chess_char_2_15_a",
+   "charId": "char_4151_tinman",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "投资人"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "炼金师",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 851,
+    "atk": 366,
+    "def": 80,
+    "res": 33,
+    "cost": 13,
+    "blockCnt": 1,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“大拉里”",
+    "spCost": 30,
+    "initSp": 12,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_15_b",
+    "stats": {
+     "maxHp": 1120,
+     "atk": 461,
+     "def": 94,
+     "res": 38,
+     "cost": 15,
+     "blockCnt": 1,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "宴": {
+   "chessId": "chess_char_2_16_a",
+   "charId": "char_337_utage",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "不屈"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "武者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2583,
+    "atk": 598,
+    "def": 265,
+    "res": 0,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "落地斩·破门",
+    "spCost": 0,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "PASSIVE"
+   },
+   "golden": {
+    "chessId": "chess_char_2_16_b",
+    "stats": {
+     "maxHp": 3417,
+     "atk": 735,
+     "def": 302,
+     "res": 0,
+     "cost": 22,
+     "blockCnt": 1,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "渡桥": {
+   "chessId": "chess_char_2_17_a",
+   "charId": "char_4147_mitm",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "远见"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "战术家",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1087,
+    "atk": 391,
+    "def": 98,
+    "res": 0,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 108,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "承压功率",
+    "spCost": 47,
+    "initSp": 15,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_17_b",
+    "stats": {
+     "maxHp": 1392,
+     "atk": 492,
+     "def": 116,
+     "res": 0,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 108,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "矩": {
+   "chessId": "chess_char_2_18_a",
+   "charId": "char_4221_ju",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "攻城手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1243,
+    "atk": 817,
+    "def": 95,
+    "res": 0,
+    "cost": 22,
+    "blockCnt": 1,
+    "bat": 2.4,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "良翼难乘",
+    "spCost": 47,
+    "initSp": 21,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_18_b",
+    "stats": {
+     "maxHp": 1589,
+     "atk": 1012,
+     "def": 113,
+     "res": 0,
+     "cost": 22,
+     "blockCnt": 1,
+     "bat": 2.4,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "星极": {
+   "chessId": "chess_char_2_19_a",
+   "charId": "char_274_astesi",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 2,
+   "bonds": [
+    "奇迹"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1859,
+    "atk": 516,
+    "def": 339,
+    "res": 10,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "星辉剑",
+    "spCost": 27,
+    "initSp": 3,
+    "duration": 11,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_19_b",
+    "stats": {
+     "maxHp": 2331,
+     "atk": 645,
+     "def": 420,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "瑰盐": {
+   "chessId": "chess_char_2_20_a",
+   "charId": "char_4163_rosesa",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "群愈师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1285,
+    "atk": 254,
+    "def": 121,
+    "res": 0,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "绝妙的长效药呀",
+    "spCost": 43,
+    "initSp": 19,
+    "duration": 27,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_20_b",
+    "stats": {
+     "maxHp": 1634,
+     "atk": 334,
+     "def": 143,
+     "res": 0,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "真理": {
+   "chessId": "chess_char_2_21_a",
+   "charId": "char_195_glassb",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 991,
+    "atk": 436,
+    "def": 84,
+    "res": 15,
+    "cost": 13,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "文学风暴",
+    "spCost": 50,
+    "initSp": 10,
+    "duration": 22,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_21_b",
+    "stats": {
+     "maxHp": 1279,
+     "atk": 513,
+     "def": 99,
+     "res": 20,
+     "cost": 13,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 103,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "铸铁": {
+   "chessId": "chess_char_2_22_a",
+   "charId": "char_333_sidero",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2096,
+    "atk": 485,
+    "def": 296,
+    "res": 10,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "生命回复·γ型",
+    "spCost": 27,
+    "initSp": 8,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_22_b",
+    "stats": {
+     "maxHp": 2829,
+     "atk": 608,
+     "def": 349,
+     "res": 15,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "星源": {
+   "chessId": "chess_char_2_23_a",
+   "charId": "char_135_halo",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "助力"
+   ],
+   "profession": "CASTER",
+   "subProfession": "链术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1057,
+    "atk": 533,
+    "def": 98,
+    "res": 15,
+    "cost": 31,
+    "blockCnt": 1,
+    "bat": 2.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "双端导流",
+    "spCost": 8,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_2_23_b",
+    "stats": {
+     "maxHp": 1381,
+     "atk": 669,
+     "def": 116,
+     "res": 20,
+     "cost": 31,
+     "blockCnt": 1,
+     "bat": 2.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "安哲拉": {
+   "chessId": "chess_char_2_24_a",
+   "charId": "char_218_cuttle",
+   "tier": 2,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "助力"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "神射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1163,
+    "atk": 881,
+    "def": 101,
+    "res": 0,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 2.7,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 1,
+    "level": 60,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "攻击力强化·γ型",
+    "spCost": 37,
+    "initSp": 5,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_2_24_b",
+    "stats": {
+     "maxHp": 1473,
+     "atk": 1109,
+     "def": 120,
+     "res": 0,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 2.7,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "车尔尼": {
+   "chessId": "chess_char_3_01_a",
+   "charId": "char_4047_pianst",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "驭法铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2247,
+    "atk": 500,
+    "def": 461,
+    "res": 15,
+    "cost": 24,
+    "blockCnt": 3,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "曲惊四座",
+    "spCost": 37,
+    "initSp": 3,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_01_b",
+    "stats": {
+     "maxHp": 3050,
+     "atk": 593,
+     "def": 583,
+     "res": 15,
+     "cost": 24,
+     "blockCnt": 3,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "卡涅利安": {
+   "chessId": "chess_char_3_02_a",
+   "charId": "char_426_billro",
+   "tier": 3,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "萨尔贡",
+    "迅捷"
+   ],
+   "profession": "CASTER",
+   "subProfession": "阵法术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "none",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1726,
+    "atk": 761,
+    "def": 198,
+    "res": 15,
+    "cost": 22,
+    "blockCnt": 1,
+    "bat": 2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "食噬之印",
+    "spCost": 28,
+    "initSp": 0,
+    "duration": 21,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_02_b",
+    "stats": {
+     "maxHp": 2178,
+     "atk": 906,
+     "def": 218,
+     "res": 15,
+     "cost": 22,
+     "blockCnt": 1,
+     "bat": 2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "乌啾": {
+   "chessId": "chess_char_3_03_a",
+   "charId": "char_4224_turdus",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "链愈师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1419,
+    "atk": 376,
+    "def": 140,
+    "res": 0,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“捉迷藏！”",
+    "spCost": 42,
+    "initSp": 30,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_03_b",
+    "stats": {
+     "maxHp": 1757,
+     "atk": 480,
+     "def": 166,
+     "res": 0,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "海沫": {
+   "chessId": "chess_char_3_04_a",
+   "charId": "char_4066_highmo",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "不屈"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "收割者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1919,
+    "atk": 569,
+    "def": 385,
+    "res": 0,
+    "cost": 20,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "回首，断舍",
+    "spCost": 3,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_3_04_b",
+    "stats": {
+     "maxHp": 2349,
+     "atk": 644,
+     "def": 437,
+     "res": 0,
+     "cost": 20,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 104,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "旅骨": {
+   "chessId": "chess_char_3_05_a",
+   "charId": "char_4232_hbound",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "精准"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "炼金师",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 916,
+    "atk": 373,
+    "def": 84,
+    "res": 30,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "座浅",
+    "spCost": 57,
+    "initSp": 26,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_05_b",
+    "stats": {
+     "maxHp": 1198,
+     "atk": 459,
+     "def": 96,
+     "res": 30,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "风絮": {
+   "chessId": "chess_char_3_06_a",
+   "charId": "char_4222_taraxa",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "守望者",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1556,
+    "atk": 368,
+    "def": 168,
+    "res": 0,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "扶风起",
+    "spCost": 45,
+    "initSp": 20,
+    "duration": 22,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_06_b",
+    "stats": {
+     "maxHp": 1746,
+     "atk": 437,
+     "def": 196,
+     "res": 0,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "极光": {
+   "chessId": "chess_char_3_07_a",
+   "charId": "char_422_aurora",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格"
+   ],
+   "profession": "TANK",
+   "subProfession": "决战者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 3100,
+    "atk": 747,
+    "def": 539,
+    "res": 0,
+    "cost": 30,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "人工降雪",
+    "spCost": 24,
+    "initSp": 9,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_07_b",
+    "stats": {
+     "maxHp": 4042,
+     "atk": 922,
+     "def": 635,
+     "res": 0,
+     "cost": 30,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "耶拉": {
+   "chessId": "chess_char_3_08_a",
+   "charId": "char_4013_kjera",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "奇迹"
+   ],
+   "profession": "CASTER",
+   "subProfession": "驭械术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1121,
+    "atk": 246,
+    "def": 101,
+    "res": 20,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "心随意动",
+    "spCost": 47,
+    "initSp": 15,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_08_b",
+    "stats": {
+     "maxHp": 1450,
+     "atk": 300,
+     "def": 116,
+     "res": 20,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "初雪": {
+   "chessId": "chess_char_3_09_a",
+   "charId": "char_174_slbell",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "协防干员"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "削弱者",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1251,
+    "atk": 356,
+    "def": 89,
+    "res": 33,
+    "cost": 10,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "自然震慑",
+    "spCost": 40,
+    "initSp": 13,
+    "duration": 14,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_09_b",
+    "stats": {
+     "maxHp": 1615,
+     "atk": 411,
+     "def": 99,
+     "res": 33,
+     "cost": 10,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 104,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "深巡": {
+   "chessId": "chess_char_3_10_a",
+   "charId": "char_4137_udflow",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "哨戒铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 2334,
+    "atk": 364,
+    "def": 508,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "行动能力剥夺",
+    "spCost": 39,
+    "initSp": 21,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_10_b",
+    "stats": {
+     "maxHp": 3020,
+     "atk": 458,
+     "def": 678,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "斯卡蒂": {
+   "chessId": "chess_char_3_11_a",
+   "charId": "char_263_skadi",
+   "tier": 3,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "无畏者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2938,
+    "atk": 875,
+    "def": 220,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 1,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "跃浪击",
+    "spCost": 0,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "PASSIVE"
+   },
+   "golden": {
+    "chessId": "chess_char_3_11_b",
+    "stats": {
+     "maxHp": 3853,
+     "atk": 1045,
+     "def": 249,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 1,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "瑕光": {
+   "chessId": "chess_char_3_12_a",
+   "charId": "char_423_blemsh",
+   "tier": 3,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "突袭"
+   ],
+   "profession": "TANK",
+   "subProfession": "守护者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2334,
+    "atk": 428,
+    "def": 476,
+    "res": 10,
+    "cost": 20,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "先贤化身",
+    "spCost": 29,
+    "initSp": 15,
+    "duration": 23,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_12_b",
+    "stats": {
+     "maxHp": 3096,
+     "atk": 522,
+     "def": 581,
+     "res": 10,
+     "cost": 20,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "忍冬": {
+   "chessId": "chess_char_3_13_a",
+   "charId": "char_4026_vulpis",
+   "tier": 3,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古",
+    "迅捷"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "尖兵",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1481,
+    "atk": 485,
+    "def": 304,
+    "res": 0,
+    "cost": 12,
+    "blockCnt": 2,
+    "bat": 1.05,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "隐狐之艺",
+    "spCost": 21,
+    "initSp": 6,
+    "duration": 10,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_13_b",
+    "stats": {
+     "maxHp": 2020,
+     "atk": 588,
+     "def": 354,
+     "res": 0,
+     "cost": 12,
+     "blockCnt": 2,
+     "bat": 1.05,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "伺夜": {
+   "chessId": "chess_char_3_14_a",
+   "charId": "char_427_vigil",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古",
+    "精准"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "战术家",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1439,
+    "atk": 378,
+    "def": 130,
+    "res": 0,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "领袖的尊严",
+    "spCost": 42,
+    "initSp": 6,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_14_b",
+    "stats": {
+     "maxHp": 1798,
+     "atk": 454,
+     "def": 161,
+     "res": 0,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "水灯心": {
+   "chessId": "chess_char_3_15_a",
+   "charId": "char_4177_brigid",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "独行",
+    "灵巧"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "回环射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1880,
+    "atk": 518,
+    "def": 140,
+    "res": 0,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "可驯服的",
+    "spCost": 31,
+    "initSp": 10,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_15_b",
+    "stats": {
+     "maxHp": 2381,
+     "atk": 627,
+     "def": 159,
+     "res": 0,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "空弦": {
+   "chessId": "chess_char_3_16_a",
+   "charId": "char_332_archet",
+   "tier": 3,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "精准",
+    "远见"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "速射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1364,
+    "atk": 454,
+    "def": 146,
+    "res": 0,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "箭矢·暴风",
+    "spCost": 37,
+    "initSp": 15,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_16_b",
+    "stats": {
+     "maxHp": 1590,
+     "atk": 538,
+     "def": 180,
+     "res": 0,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 102,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "吉星": {
+   "chessId": "chess_char_3_17_a",
+   "charId": "char_4203_kichi",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奇迹"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "散射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1732,
+    "atk": 641,
+    "def": 171,
+    "res": 0,
+    "cost": 29,
+    "blockCnt": 1,
+    "bat": 2.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "吉星高照！",
+    "spCost": 47,
+    "initSp": 19,
+    "duration": 27,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_17_b",
+    "stats": {
+     "maxHp": 2274,
+     "atk": 765,
+     "def": 185,
+     "res": 0,
+     "cost": 29,
+     "blockCnt": 1,
+     "bat": 2.3,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "伊桑": {
+   "chessId": "chess_char_3_18_a",
+   "charId": "char_355_ethan",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奥术",
+    "突袭"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "伏击客",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1450,
+    "atk": 601,
+    "def": 279,
+    "res": 30,
+    "cost": 17,
+    "blockCnt": 0,
+    "bat": 3.5,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "十字悬挂",
+    "spCost": 25,
+    "initSp": 0,
+    "duration": 22,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_18_b",
+    "stats": {
+     "maxHp": 1807,
+     "atk": 757,
+     "def": 329,
+     "res": 30,
+     "cost": 17,
+     "blockCnt": 0,
+     "bat": 3.5,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "罗比菈塔": {
+   "chessId": "chess_char_3_19_a",
+   "charId": "char_484_robrta",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "坚守",
+    "助力"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "工匠",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1976,
+    "atk": 444,
+    "def": 384,
+    "res": 0,
+    "cost": 15,
+    "blockCnt": 2,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "全自动造型仪",
+    "spCost": 40,
+    "initSp": 5,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_19_b",
+    "stats": {
+     "maxHp": 2548,
+     "atk": 522,
+     "def": 468,
+     "res": 0,
+     "cost": 15,
+     "blockCnt": 2,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "乌有": {
+   "chessId": "chess_char_3_20_a",
+   "charId": "char_455_nothin",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "行商",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1894,
+    "atk": 626,
+    "def": 336,
+    "res": 0,
+    "cost": 6,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 22,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "阴晴圆缺",
+    "spCost": 7,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_20_b",
+    "stats": {
+     "maxHp": 2420,
+     "atk": 764,
+     "def": 381,
+     "res": 0,
+     "cost": 6,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 22,
+     "deployLimit": 1
+    }
+   }
+  },
+  "历阵锐枪芬": {
+   "chessId": "chess_char_3_21_a",
+   "charId": "char_1036_fang2",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "远见"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "冲锋手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1558,
+    "atk": 503,
+    "def": 295,
+    "res": 0,
+    "cost": 10,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "执守阵线",
+    "spCost": 0,
+    "initSp": 0,
+    "duration": 14,
+    "skillType": "PASSIVE"
+   },
+   "golden": {
+    "chessId": "chess_char_3_21_b",
+    "stats": {
+     "maxHp": 2057,
+     "atk": 612,
+     "def": 344,
+     "res": 0,
+     "cost": 10,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 103,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "凯瑟琳": {
+   "chessId": "chess_char_3_22_a",
+   "charId": "char_4162_cathy",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "远见"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "工匠",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2144,
+    "atk": 456,
+    "def": 353,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 2,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "战火淬炼",
+    "spCost": 35,
+    "initSp": 15,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_22_b",
+    "stats": {
+     "maxHp": 2644,
+     "atk": 546,
+     "def": 423,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 2,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "风丸": {
+   "chessId": "chess_char_3_24_a",
+   "charId": "char_4016_kazema",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "不屈"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "傀儡师",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1873,
+    "atk": 594,
+    "def": 263,
+    "res": 0,
+    "cost": 13,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "纸艺·双影",
+    "spCost": 25,
+    "initSp": 5,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_24_b",
+    "stats": {
+     "maxHp": 2246,
+     "atk": 732,
+     "def": 329,
+     "res": 0,
+     "cost": 13,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "至简": {
+   "chessId": "chess_char_3_25_a",
+   "charId": "char_4054_malist",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡"
+   ],
+   "profession": "CASTER",
+   "subProfession": "驭械术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1064,
+    "atk": 268,
+    "def": 100,
+    "res": 20,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "神工意匠",
+    "spCost": 7,
+    "initSp": 1,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_3_25_b",
+    "stats": {
+     "maxHp": 1375,
+     "atk": 327,
+     "def": 115,
+     "res": 20,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "奥尔佳": {
+   "chessId": "chess_char_3_26_a",
+   "charId": "char_4245_alga",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "灵巧"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "教官",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1431,
+    "atk": 563,
+    "def": 353,
+    "res": 0,
+    "cost": 14,
+    "blockCnt": 2,
+    "bat": 1.05,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "只为我的答案",
+    "spCost": 32,
+    "initSp": 10,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_3_26_b",
+    "stats": {
+     "maxHp": 1997,
+     "atk": 660,
+     "def": 424,
+     "res": 0,
+     "cost": 14,
+     "blockCnt": 2,
+     "bat": 1.05,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "青枳": {
+   "chessId": "chess_char_3_27_a",
+   "charId": "char_488_buildr",
+   "tier": 3,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "坚守",
+    "迅捷"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "尖兵",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1550,
+    "atk": 364,
+    "def": 322,
+    "res": 0,
+    "cost": 11,
+    "blockCnt": 2,
+    "bat": 1.05,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "冲锋号令·γ型",
+    "spCost": 41,
+    "initSp": 12,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_3_27_b",
+    "stats": {
+     "maxHp": 2227,
+     "atk": 432,
+     "def": 400,
+     "res": 0,
+     "cost": 11,
+     "blockCnt": 2,
+     "bat": 1.05,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "黑键": {
+   "chessId": "chess_char_4_01_a",
+   "charId": "char_4046_ebnhlz",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "精准"
+   ],
+   "profession": "CASTER",
+   "subProfession": "秘术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1359,
+    "atk": 1186,
+    "def": 120,
+    "res": 20,
+    "cost": 23,
+    "blockCnt": 1,
+    "bat": 3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "荒芜回响",
+    "spCost": 15,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_4_01_b",
+    "stats": {
+     "maxHp": 1570,
+     "atk": 1438,
+     "def": 130,
+     "res": 24,
+     "cost": 23,
+     "blockCnt": 1,
+     "bat": 3,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "艾雅法拉": {
+   "chessId": "chess_char_4_02_a",
+   "charId": "char_180_amgoat",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "中坚术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1359,
+    "atk": 562,
+    "def": 109,
+    "res": 20,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "火山",
+    "spCost": 80,
+    "initSp": 33,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_02_b",
+    "stats": {
+     "maxHp": 1744,
+     "atk": 675,
+     "def": 118,
+     "res": 20,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "赫拉格": {
+   "chessId": "chess_char_4_03_a",
+   "charId": "char_188_helage",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "武者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2868,
+    "atk": 658,
+    "def": 283,
+    "res": 0,
+    "cost": 24,
+    "blockCnt": 1,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "弦月",
+    "spCost": 32,
+    "initSp": 5,
+    "duration": 11,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_03_b",
+    "stats": {
+     "maxHp": 3732,
+     "atk": 799,
+     "def": 317,
+     "res": 0,
+     "cost": 24,
+     "blockCnt": 1,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "维伊": {
+   "chessId": "chess_char_4_04_a",
+   "charId": "char_4226_veen",
+   "tier": 4,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "秘术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1215,
+    "atk": 1142,
+    "def": 108,
+    "res": 20,
+    "cost": 24,
+    "blockCnt": 1,
+    "bat": 3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“用赤铁铭记”",
+    "spCost": 57,
+    "initSp": 22,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_04_b",
+    "stats": {
+     "maxHp": 1484,
+     "atk": 1405,
+     "def": 117,
+     "res": 20,
+     "cost": 24,
+     "blockCnt": 1,
+     "bat": 3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "温蒂": {
+   "chessId": "chess_char_4_05_a",
+   "charId": "char_400_weedy",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "坚守"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "推击手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1803,
+    "atk": 548,
+    "def": 327,
+    "res": 0,
+    "cost": 19,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 108,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "液氮大炮",
+    "spCost": 40,
+    "initSp": 13,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_05_b",
+    "stats": {
+     "maxHp": 2255,
+     "atk": 684,
+     "def": 371,
+     "res": 0,
+     "cost": 19,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 108,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "流明": {
+   "chessId": "chess_char_4_06_a",
+   "charId": "char_4042_lumen",
+   "tier": 4,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "疗养师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1569,
+    "atk": 432,
+    "def": 88,
+    "res": 10,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "灯火不灭",
+    "spCost": 61,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_06_b",
+    "stats": {
+     "maxHp": 1859,
+     "atk": 534,
+     "def": 103,
+     "res": 10,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "余": {
+   "chessId": "chess_char_4_07_a",
+   "charId": "char_2026_yu",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "本源铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2703,
+    "atk": 548,
+    "def": 444,
+    "res": 10,
+    "cost": 24,
+    "blockCnt": 3,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "灶里乾坤",
+    "spCost": 55,
+    "initSp": 24,
+    "duration": 41,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_07_b",
+    "stats": {
+     "maxHp": 3500,
+     "atk": 694,
+     "def": 532,
+     "res": 10,
+     "cost": 24,
+     "blockCnt": 3,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "森蚺": {
+   "chessId": "chess_char_4_08_a",
+   "charId": "char_416_zumama",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "不屈"
+   ],
+   "profession": "TANK",
+   "subProfession": "决战者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 3440,
+    "atk": 835,
+    "def": 519,
+    "res": 0,
+    "cost": 31,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "钢铁意志",
+    "spCost": 52,
+    "initSp": 21,
+    "duration": 31,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_08_b",
+    "stats": {
+     "maxHp": 4121,
+     "atk": 1029,
+     "def": 671,
+     "res": 0,
+     "cost": 31,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "灵知": {
+   "chessId": "chess_char_4_09_a",
+   "charId": "char_206_gnosis",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "迅捷"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "削弱者",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1587,
+    "atk": 410,
+    "def": 116,
+    "res": 25,
+    "cost": 11,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "零度爆发",
+    "spCost": 8,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_09_b",
+    "stats": {
+     "maxHp": 1989,
+     "atk": 477,
+     "def": 142,
+     "res": 25,
+     "cost": 11,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "归溟幽灵鲨": {
+   "chessId": "chess_char_4_10_a",
+   "charId": "char_1023_ghost2",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "不屈"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "傀儡师",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2214,
+    "atk": 637,
+    "def": 267,
+    "res": 0,
+    "cost": 14,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "生存的渴望",
+    "spCost": 40,
+    "initSp": 20,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_10_b",
+    "stats": {
+     "maxHp": 2804,
+     "atk": 775,
+     "def": 303,
+     "res": 0,
+     "cost": 14,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "水月": {
+   "chessId": "chess_char_4_11_a",
+   "charId": "char_437_mizuki",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "灵巧"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "伏击客",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1336,
+    "atk": 724,
+    "def": 302,
+    "res": 30,
+    "cost": 19,
+    "blockCnt": 0,
+    "bat": 3.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "囚徒困境",
+    "spCost": 22,
+    "initSp": 5,
+    "duration": 17,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_11_b",
+    "stats": {
+     "maxHp": 1736,
+     "atk": 899,
+     "def": 338,
+     "res": 30,
+     "cost": 19,
+     "blockCnt": 0,
+     "bat": 3.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "远牙": {
+   "chessId": "chess_char_4_12_a",
+   "charId": "char_430_fartth",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "精准"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "神射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1217,
+    "atk": 1020,
+    "def": 133,
+    "res": 0,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 2.7,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "同盟支援",
+    "spCost": 40,
+    "initSp": 18,
+    "duration": 28,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_12_b",
+    "stats": {
+     "maxHp": 1419,
+     "atk": 1233,
+     "def": 153,
+     "res": 0,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 2.7,
+     "aspd": 105,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "玛恩纳": {
+   "chessId": "chess_char_4_13_a",
+   "charId": "char_4064_mlynar",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "解放者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "none",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 3241,
+    "atk": 326,
+    "def": 426,
+    "res": 15,
+    "cost": 10,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "未照耀的荣光",
+    "spCost": 50,
+    "initSp": 15,
+    "duration": 26,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_13_b",
+    "stats": {
+     "maxHp": 3907,
+     "atk": 380,
+     "def": 476,
+     "res": 15,
+     "cost": 10,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 105,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "涤火杰西卡": {
+   "chessId": "chess_char_4_14_a",
+   "charId": "char_1034_jesca2",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "哨戒铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 2589,
+    "atk": 461,
+    "def": 522,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "饱和迸射",
+    "spCost": 50,
+    "initSp": 20,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_14_b",
+    "stats": {
+     "maxHp": 3445,
+     "atk": 570,
+     "def": 676,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "白铁": {
+   "chessId": "chess_char_4_15_a",
+   "charId": "char_4072_ironmn",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "助力"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "工匠",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2042,
+    "atk": 517,
+    "def": 354,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 2,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 64,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "铁钳号·原型机",
+    "spCost": 45,
+    "initSp": 15,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_15_b",
+    "stats": {
+     "maxHp": 2493,
+     "atk": 609,
+     "def": 423,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 2,
+     "bat": 1.5,
+     "aspd": 105,
+     "respawnTime": 64,
+     "deployLimit": 1
+    }
+   }
+  },
+  "斥罪": {
+   "chessId": "chess_char_4_16_a",
+   "charId": "char_4065_judge",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古",
+    "不屈"
+   ],
+   "profession": "TANK",
+   "subProfession": "不屈者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2960,
+    "atk": 711,
+    "def": 474,
+    "res": 10,
+    "cost": 34,
+    "blockCnt": 3,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "坚心苦修",
+    "spCost": 37,
+    "initSp": 12,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_16_b",
+    "stats": {
+     "maxHp": 3836,
+     "atk": 874,
+     "def": 583,
+     "res": 10,
+     "cost": 34,
+     "blockCnt": 3,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "W": {
+   "chessId": "chess_char_4_17_a",
+   "charId": "char_113_cqbw",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "迅捷"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "炮手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1284,
+    "atk": 746,
+    "def": 112,
+    "res": 0,
+    "cost": 27,
+    "blockCnt": 1,
+    "bat": 2.8,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "惊吓盒子",
+    "spCost": 11,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_4_17_b",
+    "stats": {
+     "maxHp": 1627,
+     "atk": 933,
+     "def": 126,
+     "res": 0,
+     "cost": 27,
+     "blockCnt": 1,
+     "bat": 2.8,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "霍尔海雅": {
+   "chessId": "chess_char_4_18_a",
+   "charId": "char_4027_heyak",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奥术",
+    "精准"
+   ],
+   "profession": "CASTER",
+   "subProfession": "中坚术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1380,
+    "atk": 552,
+    "def": 116,
+    "res": 20,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "群星逶迤",
+    "spCost": 36,
+    "initSp": 21,
+    "duration": 16,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_18_b",
+    "stats": {
+     "maxHp": 1759,
+     "atk": 664,
+     "def": 125,
+     "res": 20,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "山": {
+   "chessId": "chess_char_4_19_a",
+   "charId": "char_264_f12yin",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "投资人"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "斗士",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2250,
+    "atk": 499,
+    "def": 299,
+    "res": 0,
+    "cost": 9,
+    "blockCnt": 1,
+    "bat": 0.78,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "震地碎岩击",
+    "spCost": 47,
+    "initSp": 25,
+    "duration": 26,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_19_b",
+    "stats": {
+     "maxHp": 2738,
+     "atk": 608,
+     "def": 352,
+     "res": 0,
+     "cost": 9,
+     "blockCnt": 1,
+     "bat": 0.78,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "淬羽赫默": {
+   "chessId": "chess_char_4_20_a",
+   "charId": "char_1031_slent2",
+   "tier": 4,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "助力"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "护佑者",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1445,
+    "atk": 387,
+    "def": 147,
+    "res": 25,
+    "cost": 12,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "无畏者协议",
+    "spCost": 46,
+    "initSp": 20,
+    "duration": 60,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_20_b",
+    "stats": {
+     "maxHp": 1865,
+     "atk": 485,
+     "def": 172,
+     "res": 25,
+     "cost": 12,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "赫德雷": {
+   "chessId": "chess_char_4_21_a",
+   "charId": "char_4088_hodrer",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "重剑手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 4920,
+    "atk": 1368,
+    "def": 0,
+    "res": 0,
+    "cost": 22,
+    "blockCnt": 2,
+    "bat": 2.5,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "死境硝烟",
+    "spCost": 70,
+    "initSp": 40,
+    "duration": 70,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_21_b",
+    "stats": {
+     "maxHp": 6084,
+     "atk": 1628,
+     "def": 0,
+     "res": 0,
+     "cost": 22,
+     "blockCnt": 2,
+     "bat": 2.5,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "夜莺": {
+   "chessId": "chess_char_4_22_a",
+   "charId": "char_179_cgbird",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "聚合",
+    "协防干员"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "群愈师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1346,
+    "atk": 280,
+    "def": 140,
+    "res": 15,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "圣域",
+    "spCost": 120,
+    "initSp": 105,
+    "duration": 60,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_22_b",
+    "stats": {
+     "maxHp": 1584,
+     "atk": 366,
+     "def": 159,
+     "res": 20,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "仇白": {
+   "chessId": "chess_char_4_23_a",
+   "charId": "char_4082_qiubai",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "灵巧"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "领主",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1959,
+    "atk": 607,
+    "def": 333,
+    "res": 10,
+    "cost": 18,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "问雪",
+    "spCost": 61,
+    "initSp": 34,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_23_b",
+    "stats": {
+     "maxHp": 2304,
+     "atk": 733,
+     "def": 399,
+     "res": 10,
+     "cost": 18,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 105,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "异客": {
+   "chessId": "chess_char_4_24_a",
+   "charId": "char_472_pasngr",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "链术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1215,
+    "atk": 603,
+    "def": 116,
+    "res": 20,
+    "cost": 31,
+    "blockCnt": 1,
+    "bat": 2.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "电能之触",
+    "spCost": 6,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_4_24_b",
+    "stats": {
+     "maxHp": 1442,
+     "atk": 746,
+     "def": 125,
+     "res": 20,
+     "cost": 31,
+     "blockCnt": 1,
+     "bat": 2.3,
+     "aspd": 105,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "安洁莉娜": {
+   "chessId": "chess_char_4_25_a",
+   "charId": "char_291_aglina",
+   "tier": 4,
+   "chessType": "NORMAL",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古",
+    "奇迹"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1108,
+    "atk": 474,
+    "def": 100,
+    "res": 25,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "秘杖·反重力模式",
+    "spCost": 25,
+    "initSp": 3,
+    "duration": 14,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_25_b",
+    "stats": {
+     "maxHp": 1382,
+     "atk": 571,
+     "def": 113,
+     "res": 25,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "华法琳": {
+   "chessId": "chess_char_4_26_a",
+   "charId": "char_171_bldsk",
+   "tier": 4,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "灵巧",
+    "聚合"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "医师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1368,
+    "atk": 431,
+    "def": 100,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 60,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "紧急包扎",
+    "spCost": 4,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_4_26_b",
+    "stats": {
+     "maxHp": 1522,
+     "atk": 536,
+     "def": 119,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 60,
+     "deployLimit": 1
+    }
+   }
+  },
+  "寒檀": {
+   "chessId": "chess_char_4_27_a",
+   "charId": "char_341_sntlla",
+   "tier": 4,
+   "chessType": "PRESET",
+   "price": 3,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "远见"
+   ],
+   "profession": "CASTER",
+   "subProfession": "扩散术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1279,
+    "atk": 678,
+    "def": 103,
+    "res": 20,
+    "cost": 31,
+    "blockCnt": 1,
+    "bat": 2.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“女巫之泪”",
+    "spCost": 47,
+    "initSp": 20,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_4_27_b",
+    "stats": {
+     "maxHp": 1629,
+     "atk": 811,
+     "def": 118,
+     "res": 20,
+     "cost": 23,
+     "blockCnt": 1,
+     "bat": 2.9,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "纯烬艾雅法拉": {
+   "chessId": "chess_char_5_01_a",
+   "charId": "char_1016_agoat2",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "聚合",
+    "莱塔尼亚",
+    "远见"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "行医",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1237,
+    "atk": 362,
+    "def": 87,
+    "res": 10,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "火山回响",
+    "spCost": 75,
+    "initSp": 30,
+    "duration": 50,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_01_b",
+    "stats": {
+     "maxHp": 1481,
+     "atk": 443,
+     "def": 102,
+     "res": 10,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "怒潮凛冬": {
+   "chessId": "chess_char_5_02_a",
+   "charId": "char_1051_headb2",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "奇迹"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "撼地者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2301,
+    "atk": 1100,
+    "def": 346,
+    "res": 0,
+    "cost": 18,
+    "blockCnt": 2,
+    "bat": 1.8,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "绝不罢休",
+    "spCost": 57,
+    "initSp": 20,
+    "duration": 16,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_5_02_b",
+    "stats": {
+     "maxHp": 2981,
+     "atk": 1297,
+     "def": 408,
+     "res": 0,
+     "cost": 18,
+     "blockCnt": 2,
+     "bat": 1.8,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "艾丽妮": {
+   "chessId": "chess_char_5_03_a",
+   "charId": "char_4009_irene",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "剑豪",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2201,
+    "atk": 507,
+    "def": 282,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "判决",
+    "spCost": 32,
+    "initSp": 8,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_03_b",
+    "stats": {
+     "maxHp": 2688,
+     "atk": 648,
+     "def": 361,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "棘刺": {
+   "chessId": "chess_char_5_04_a",
+   "charId": "char_293_thorns",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "奥术"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "领主",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 2063,
+    "atk": 601,
+    "def": 333,
+    "res": 10,
+    "cost": 18,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "至高之术",
+    "spCost": 15,
+    "initSp": 0,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_04_b",
+    "stats": {
+     "maxHp": 2587,
+     "atk": 730,
+     "def": 379,
+     "res": 10,
+     "cost": 18,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 105,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "黍": {
+   "chessId": "chess_char_5_05_a",
+   "charId": "char_2025_shu",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "远见"
+   ],
+   "profession": "TANK",
+   "subProfession": "守护者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2513,
+    "atk": 417,
+    "def": 493,
+    "res": 10,
+    "cost": 20,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "离离枯荣",
+    "spCost": 55,
+    "initSp": 25,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_05_b",
+    "stats": {
+     "maxHp": 3270,
+     "atk": 505,
+     "def": 595,
+     "res": 10,
+     "cost": 20,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "佩佩": {
+   "chessId": "chess_char_5_06_a",
+   "charId": "char_4058_pepe",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "灵巧"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "撼地者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2223,
+    "atk": 1118,
+    "def": 328,
+    "res": 0,
+    "cost": 18,
+    "blockCnt": 2,
+    "bat": 1.8,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "时光震荡",
+    "spCost": 57,
+    "initSp": 30,
+    "duration": 40,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_06_b",
+    "stats": {
+     "maxHp": 2839,
+     "atk": 1342,
+     "def": 367,
+     "res": 0,
+     "cost": 18,
+     "blockCnt": 2,
+     "bat": 1.8,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "圣聆初雪": {
+   "chessId": "chess_char_5_07_a",
+   "charId": "char_1046_sbell2",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "阵法术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "none",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1687,
+    "atk": 752,
+    "def": 233,
+    "res": 15,
+    "cost": 22,
+    "blockCnt": 1,
+    "bat": 2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "群山俯首",
+    "spCost": 56,
+    "initSp": 30,
+    "duration": 35,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_07_b",
+    "stats": {
+     "maxHp": 1933,
+     "atk": 880,
+     "def": 274,
+     "res": 15,
+     "cost": 22,
+     "blockCnt": 1,
+     "bat": 2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "凛御银灰": {
+   "chessId": "chess_char_5_08_a",
+   "charId": "char_1045_svash2",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "谢拉格",
+    "灵巧",
+    "投资人"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "策士",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1732,
+    "atk": 507,
+    "def": 342,
+    "res": 15,
+    "cost": 11,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "变革已至",
+    "spCost": 55,
+    "initSp": 39,
+    "duration": 48,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_08_b",
+    "stats": {
+     "maxHp": 2364,
+     "atk": 621,
+     "def": 395,
+     "res": 15,
+     "cost": 11,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "歌蕾蒂娅": {
+   "chessId": "chess_char_5_09_a",
+   "charId": "char_474_glady",
+   "tier": 5,
+   "chessType": "PRESET",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "钩索师",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1754,
+    "atk": 640,
+    "def": 281,
+    "res": 0,
+    "cost": 13,
+    "blockCnt": 2,
+    "bat": 1.8,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "缺水的碎漩狂舞",
+    "spCost": 42,
+    "initSp": 22,
+    "duration": 8,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_09_b",
+    "stats": {
+     "maxHp": 2232,
+     "atk": 792,
+     "def": 314,
+     "res": 0,
+     "cost": 13,
+     "blockCnt": 2,
+     "bat": 1.8,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "乌尔比安": {
+   "chessId": "chess_char_5_10_a",
+   "charId": "char_4145_ulpia",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "重剑手",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 4947,
+    "atk": 1362,
+    "def": 0,
+    "res": 0,
+    "cost": 22,
+    "blockCnt": 2,
+    "bat": 2.5,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "必须开辟的通路",
+    "spCost": 29,
+    "initSp": 10,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_10_b",
+    "stats": {
+     "maxHp": 6155,
+     "atk": 1613,
+     "def": 0,
+     "res": 0,
+     "cost": 22,
+     "blockCnt": 2,
+     "bat": 2.5,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "薇薇安娜": {
+   "chessId": "chess_char_5_11_a",
+   "charId": "char_4098_vvana",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "莱塔尼亚",
+    "卡西米尔",
+    "奥术"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2219,
+    "atk": 551,
+    "def": 371,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "“明灭”",
+    "spCost": 32,
+    "initSp": 9,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_11_b",
+    "stats": {
+     "maxHp": 2924,
+     "atk": 663,
+     "def": 421,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "铃兰": {
+   "chessId": "chess_char_5_12_a",
+   "charId": "char_358_lisa",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1184,
+    "atk": 457,
+    "def": 107,
+    "res": 25,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "狐火渺然",
+    "spCost": 70,
+    "initSp": 43,
+    "duration": 27,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_12_b",
+    "stats": {
+     "maxHp": 1480,
+     "atk": 516,
+     "def": 121,
+     "res": 25,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 104,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "贝洛内": {
+   "chessId": "chess_char_5_13_a",
+   "charId": "char_4037_demetr",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古",
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "斗士",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2152,
+    "atk": 514,
+    "def": 298,
+    "res": 0,
+    "cost": 9,
+    "blockCnt": 1,
+    "bat": 0.78,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "军师的手段",
+    "spCost": 29,
+    "initSp": 14,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_13_b",
+    "stats": {
+     "maxHp": 2606,
+     "atk": 640,
+     "def": 336,
+     "res": 0,
+     "cost": 9,
+     "blockCnt": 1,
+     "bat": 0.78,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "维娜·维多利亚": {
+   "chessId": "chess_char_5_14_a",
+   "charId": "char_1019_siege2",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚",
+    "奇迹"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2200,
+    "atk": 574,
+    "def": 348,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "俱以我之名",
+    "spCost": 65,
+    "initSp": 25,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_14_b",
+    "stats": {
+     "maxHp": 2921,
+     "atk": 688,
+     "def": 396,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "迷迭香": {
+   "chessId": "chess_char_5_15_a",
+   "charId": "char_391_rosmon",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "精准",
+    "助力"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "投掷手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1477,
+    "atk": 616,
+    "def": 200,
+    "res": 15,
+    "cost": 23,
+    "blockCnt": 1,
+    "bat": 2.1,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "末梢阻断",
+    "spCost": 37,
+    "initSp": 20,
+    "duration": 33,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_15_b",
+    "stats": {
+     "maxHp": 1962,
+     "atk": 740,
+     "def": 230,
+     "res": 15,
+     "cost": 23,
+     "blockCnt": 1,
+     "bat": 2.1,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "隐德来希": {
+   "chessId": "chess_char_5_16_a",
+   "charId": "char_4010_etlchi",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "灵巧",
+    "不屈"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "收割者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2038,
+    "atk": 611,
+    "def": 388,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "灵与欲的惜别",
+    "spCost": 36,
+    "initSp": 20,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_16_b",
+    "stats": {
+     "maxHp": 2397,
+     "atk": 740,
+     "def": 450,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "塞雷娅": {
+   "chessId": "chess_char_5_17_a",
+   "charId": "char_202_demkni",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "坚守",
+    "协防干员"
+   ],
+   "profession": "TANK",
+   "subProfession": "守护者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2268,
+    "atk": 388,
+    "def": 514,
+    "res": 10,
+    "cost": 20,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "急救",
+    "spCost": 5,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "AUTO"
+   },
+   "golden": {
+    "chessId": "chess_char_5_17_b",
+    "stats": {
+     "maxHp": 3003,
+     "atk": 502,
+     "def": 586,
+     "res": 10,
+     "cost": 20,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "溯光星源": {
+   "chessId": "chess_char_5_18_a",
+   "charId": "char_1047_halo2",
+   "tier": 5,
+   "chessType": "PRESET",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奥术"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "凝滞师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1136,
+    "atk": 442,
+    "def": 105,
+    "res": 25,
+    "cost": 15,
+    "blockCnt": 1,
+    "bat": 1.9,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "并流连锁",
+    "spCost": 45,
+    "initSp": 18,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_18_b",
+    "stats": {
+     "maxHp": 1409,
+     "atk": 537,
+     "def": 118,
+     "res": 25,
+     "cost": 15,
+     "blockCnt": 1,
+     "bat": 1.9,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "老鲤": {
+   "chessId": "chess_char_5_19_a",
+   "charId": "char_322_lmlee",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "投资人",
+    "炎"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "行商",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1917,
+    "atk": 684,
+    "def": 395,
+    "res": 0,
+    "cost": 7,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 21,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "驱凶辟邪",
+    "spCost": 11,
+    "initSp": 0,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_19_b",
+    "stats": {
+     "maxHp": 2455,
+     "atk": 828,
+     "def": 441,
+     "res": 0,
+     "cost": 7,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 21,
+     "deployLimit": 1
+    }
+   }
+  },
+  "Mon3tr": {
+   "chessId": "chess_char_5_20_a",
+   "charId": "char_4179_monstr",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "协防干员"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "链愈师",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "heal",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1492,
+    "atk": 447,
+    "def": 176,
+    "res": 0,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 2.85,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "策略：熔毁",
+    "spCost": 15,
+    "initSp": 5,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_20_b",
+    "stats": {
+     "maxHp": 1653,
+     "atk": 557,
+     "def": 236,
+     "res": 0,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 2.85,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "可露希尔": {
+   "chessId": "chess_char_5_21_a",
+   "charId": "char_4228_closur",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "投资人"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "战术家",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1444,
+    "atk": 418,
+    "def": 110,
+    "res": 0,
+    "cost": 13,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 108,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "Q.E.D.",
+    "spCost": 39,
+    "initSp": 15,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_21_b",
+    "stats": {
+     "maxHp": 1805,
+     "atk": 496,
+     "def": 139,
+     "res": 0,
+     "cost": 13,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 108,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "鸿雪": {
+   "chessId": "chess_char_5_23_a",
+   "charId": "char_4055_bgsnow",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡",
+    "精准"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "重射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1369,
+    "atk": 704,
+    "def": 140,
+    "res": 0,
+    "cost": 18,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "点题",
+    "spCost": 11,
+    "initSp": 3,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_23_b",
+    "stats": {
+     "maxHp": 1656,
+     "atk": 918,
+     "def": 185,
+     "res": 0,
+     "cost": 18,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 41,
+     "deployLimit": 1
+    }
+   }
+  },
+  "焰尾": {
+   "chessId": "chess_char_5_24_a",
+   "charId": "char_420_flamtl",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "迅捷"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "尖兵",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1560,
+    "atk": 456,
+    "def": 313,
+    "res": 0,
+    "cost": 12,
+    "blockCnt": 2,
+    "bat": 1.05,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "焰心",
+    "spCost": 21,
+    "initSp": 2,
+    "duration": 8,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_24_b",
+    "stats": {
+     "maxHp": 2118,
+     "atk": 554,
+     "def": 365,
+     "res": 0,
+     "cost": 12,
+     "blockCnt": 2,
+     "bat": 1.05,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "冻河": {
+   "chessId": "chess_char_5_25_a",
+   "charId": "char_4244_tocka",
+   "tier": 5,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "迅捷"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "游击手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1315,
+    "atk": 704,
+    "def": 198,
+    "res": 10,
+    "cost": 15,
+    "blockCnt": 1,
+    "bat": 2.1,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "踽踽独行之春",
+    "spCost": 27,
+    "initSp": 10,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_25_b",
+    "stats": {
+     "maxHp": 1562,
+     "atk": 795,
+     "def": 216,
+     "res": 10,
+     "cost": 15,
+     "blockCnt": 1,
+     "bat": 2.1,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "阿米娅": {
+   "chessId": "chess_char_5_26_a",
+   "charId": "char_1037_amiya3",
+   "tier": 5,
+   "chessType": "PRESET",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奇迹"
+   ],
+   "profession": "MEDIC",
+   "subProfession": "咒愈师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1417,
+    "atk": 447,
+    "def": 84,
+    "res": 28,
+    "cost": 15,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "慈悲愿景",
+    "spCost": 28,
+    "initSp": 5,
+    "duration": 32,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_5_26_b",
+    "stats": {
+     "maxHp": 1666,
+     "atk": 552,
+     "def": 100,
+     "res": 28,
+     "cost": 15,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "引星棘刺": {
+   "chessId": "chess_char_6_01_a",
+   "charId": "char_1039_thorn2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "伊比利亚",
+    "迅捷"
+   ],
+   "profession": "SPECIAL",
+   "subProfession": "炼金师",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 926,
+    "atk": 405,
+    "def": 89,
+    "res": 42,
+    "cost": 16,
+    "blockCnt": 1,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "解构涌潮",
+    "spCost": 27,
+    "initSp": 12,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_01_b",
+    "stats": {
+     "maxHp": 1210,
+     "atk": 519,
+     "def": 100,
+     "res": 42,
+     "cost": 16,
+     "blockCnt": 1,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "烛煌": {
+   "chessId": "chess_char_6_02_a",
+   "charId": "char_1040_blaze2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "维多利亚",
+    "迅捷"
+   ],
+   "profession": "CASTER",
+   "subProfession": "本源术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1206,
+    "atk": 587,
+    "def": 108,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "众恶的焚场",
+    "spCost": 37,
+    "initSp": 13,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_02_b",
+    "stats": {
+     "maxHp": 1472,
+     "atk": 739,
+     "def": 148,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "浊心斯卡蒂": {
+   "chessId": "chess_char_6_03_a",
+   "charId": "char_1012_skadi2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔",
+    "聚合"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "吟游者",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "none",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1202,
+    "atk": 332,
+    "def": 186,
+    "res": 0,
+    "cost": 6,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 64,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "\"潮涌，潮枯\"",
+    "spCost": 39,
+    "initSp": 15,
+    "duration": 20,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_03_b",
+    "stats": {
+     "maxHp": 1598,
+     "atk": 409,
+     "def": 234,
+     "res": 0,
+     "cost": 6,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 64,
+     "deployLimit": 1
+    }
+   }
+  },
+  "克莱门莎": {
+   "chessId": "chess_char_6_04_a",
+   "charId": "char_4231_clemnt",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "阿戈尔"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "本源近卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2040,
+    "atk": 798,
+    "def": 315,
+    "res": 10,
+    "cost": 21,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "风暴潮",
+    "spCost": 22,
+    "initSp": 9,
+    "duration": 16,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_04_b",
+    "stats": {
+     "maxHp": 2491,
+     "atk": 902,
+     "def": 352,
+     "res": 10,
+     "cost": 21,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "耀骑士临光": {
+   "chessId": "chess_char_6_05_a",
+   "charId": "char_1014_nearl2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "突袭"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "无畏者",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2698,
+    "atk": 918,
+    "def": 247,
+    "res": 0,
+    "cost": 17,
+    "blockCnt": 1,
+    "bat": 1.5,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "耀阳颔首",
+    "spCost": 55,
+    "initSp": 15,
+    "duration": 25,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_05_b",
+    "stats": {
+     "maxHp": 3593,
+     "atk": 1143,
+     "def": 279,
+     "res": 0,
+     "cost": 17,
+     "blockCnt": 1,
+     "bat": 1.5,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "荒芜拉普兰德": {
+   "chessId": "chess_char_6_06_a",
+   "charId": "char_1038_whitw2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "叙拉古"
+   ],
+   "profession": "CASTER",
+   "subProfession": "驭械术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1142,
+    "atk": 312,
+    "def": 98,
+    "res": 20,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "终幕·浩劫",
+    "spCost": 69,
+    "initSp": 38,
+    "duration": 40,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_06_b",
+    "stats": {
+     "maxHp": 1541,
+     "atk": 381,
+     "def": 111,
+     "res": 20,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "酒神": {
+   "chessId": "chess_char_6_07_a",
+   "charId": "char_1042_phatm2",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "维多利亚"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "巫役",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 936,
+    "atk": 434,
+    "def": 89,
+    "res": 15,
+    "cost": 14,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "空剧场",
+    "spCost": 40,
+    "initSp": 9,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_07_b",
+    "stats": {
+     "maxHp": 1311,
+     "atk": 528,
+     "def": 99,
+     "res": 15,
+     "cost": 14,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "逻各斯": {
+   "chessId": "chess_char_6_08_a",
+   "charId": "char_4133_logos",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "奥术",
+    "远见"
+   ],
+   "profession": "CASTER",
+   "subProfession": "中坚术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1297,
+    "atk": 583,
+    "def": 106,
+    "res": 20,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "延异视阈",
+    "spCost": 45,
+    "initSp": 9,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_08_b",
+    "stats": {
+     "maxHp": 1540,
+     "atk": 719,
+     "def": 115,
+     "res": 25,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "真言": {
+   "chessId": "chess_char_6_09_a",
+   "charId": "char_4204_mantra",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "萨尔贡"
+   ],
+   "profession": "CASTER",
+   "subProfession": "本源术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1071,
+    "atk": 614,
+    "def": 107,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 64,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "无言为真",
+    "spCost": 52,
+    "initSp": 24,
+    "duration": 40,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_09_b",
+    "stats": {
+     "maxHp": 1453,
+     "atk": 775,
+     "def": 122,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 64,
+     "deployLimit": 1
+    }
+   }
+  },
+  "妮芙": {
+   "chessId": "chess_char_6_10_a",
+   "charId": "char_4146_nymph",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "迅捷",
+    "远见"
+   ],
+   "profession": "CASTER",
+   "subProfession": "本源术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1237,
+    "atk": 577,
+    "def": 107,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "怵然震爆",
+    "spCost": 17,
+    "initSp": 3,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_10_b",
+    "stats": {
+     "maxHp": 1661,
+     "atk": 727,
+     "def": 122,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "遥": {
+   "chessId": "chess_char_6_11_a",
+   "charId": "char_4202_haruka",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "聚合",
+    "奇迹"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "护佑者",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1415,
+    "atk": 423,
+    "def": 142,
+    "res": 25,
+    "cost": 11,
+    "blockCnt": 1,
+    "bat": 1.6,
+    "aspd": 100,
+    "respawnTime": 64,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "幽隙栖萤",
+    "spCost": 21,
+    "initSp": 0,
+    "duration": 22,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_11_b",
+    "stats": {
+     "maxHp": 1938,
+     "atk": 529,
+     "def": 166,
+     "res": 25,
+     "cost": 11,
+     "blockCnt": 1,
+     "bat": 1.6,
+     "aspd": 100,
+     "respawnTime": 64,
+     "deployLimit": 1
+    }
+   }
+  },
+  "魔王": {
+   "chessId": "chess_char_6_12_a",
+   "charId": "char_4134_cetsyr",
+   "tier": 6,
+   "chessType": "PRESET",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "调和"
+   ],
+   "profession": "SUPPORT",
+   "subProfession": "吟游者",
+   "position": "RANGED",
+   "dmgType": "heal",
+   "attackKind": "none",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1221,
+    "atk": 306,
+    "def": 188,
+    "res": 0,
+    "cost": 7,
+    "blockCnt": 1,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "编织重构现世",
+    "spCost": 80,
+    "initSp": 35,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_12_b",
+    "stats": {
+     "maxHp": 1771,
+     "atk": 375,
+     "def": 220,
+     "res": 0,
+     "cost": 7,
+     "blockCnt": 1,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "史尔特尔": {
+   "chessId": "chess_char_6_13_a",
+   "charId": "char_350_surtr",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "突袭",
+    "不屈"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "术战者",
+   "position": "MELEE",
+   "dmgType": "arts",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2216,
+    "atk": 572,
+    "def": 343,
+    "res": 15,
+    "cost": 19,
+    "blockCnt": 1,
+    "bat": 1.25,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "黄昏",
+    "spCost": 9,
+    "initSp": 0,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_13_b",
+    "stats": {
+     "maxHp": 2680,
+     "atk": 717,
+     "def": 455,
+     "res": 15,
+     "cost": 19,
+     "blockCnt": 1,
+     "bat": 1.25,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "锏": {
+   "chessId": "chess_char_6_14_a",
+   "charId": "char_4116_blkkgt",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "卡西米尔",
+    "谢拉格",
+    "莱塔尼亚"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "剑豪",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2168,
+    "atk": 518,
+    "def": 274,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 2,
+    "bat": 1.3,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "归于宁静",
+    "spCost": 35,
+    "initSp": 10,
+    "duration": 0,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_14_b",
+    "stats": {
+     "maxHp": 2767,
+     "atk": 661,
+     "def": 367,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 2,
+     "bat": 1.3,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "机械师": {
+   "chessId": "chess_char_6_15_a",
+   "charId": "char_4230_mcnist",
+   "tier": 6,
+   "chessType": "PRESET",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "协防干员",
+    "坚守"
+   ],
+   "profession": "TANK",
+   "subProfession": "哨戒铁卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 2614,
+    "atk": 425,
+    "def": 542,
+    "res": 0,
+    "cost": 21,
+    "blockCnt": 3,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "工程学十字星",
+    "spCost": 43,
+    "initSp": 20,
+    "duration": 40,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_15_b",
+    "stats": {
+     "maxHp": 3288,
+     "atk": 583,
+     "def": 749,
+     "res": 0,
+     "cost": 21,
+     "blockCnt": 3,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "塔露拉": {
+   "chessId": "chess_char_6_16_a",
+   "charId": "char_4247_oxi",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "乌萨斯",
+    "奥术",
+    "协防干员"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "本源近卫",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 2415,
+    "atk": 778,
+    "def": 361,
+    "res": 10,
+    "cost": 21,
+    "blockCnt": 2,
+    "bat": 1.2,
+    "aspd": 100,
+    "respawnTime": 70,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "日冕重烈",
+    "spCost": 45,
+    "initSp": 38,
+    "duration": 36,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_16_b",
+    "stats": {
+     "maxHp": 2743,
+     "atk": 866,
+     "def": 403,
+     "res": 10,
+     "cost": 21,
+     "blockCnt": 2,
+     "bat": 1.2,
+     "aspd": 100,
+     "respawnTime": 70,
+     "deployLimit": 1
+    }
+   }
+  },
+  "夕": {
+   "chessId": "chess_char_6_17_a",
+   "charId": "char_2015_dusk",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "炎",
+    "奥术"
+   ],
+   "profession": "CASTER",
+   "subProfession": "扩散术师",
+   "position": "RANGED",
+   "dmgType": "arts",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1404,
+    "atk": 805,
+    "def": 106,
+    "res": 20,
+    "cost": 32,
+    "blockCnt": 1,
+    "bat": 2.9,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "泼墨淋漓",
+    "spCost": 47,
+    "initSp": 15,
+    "duration": 17,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_17_b",
+    "stats": {
+     "maxHp": 1857,
+     "atk": 982,
+     "def": 120,
+     "res": 20,
+     "cost": 32,
+     "blockCnt": 1,
+     "bat": 2.9,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "蕾缪安": {
+   "chessId": "chess_char_6_18_a",
+   "charId": "char_4193_lemuen",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "精准"
+   ],
+   "profession": "SNIPER",
+   "subProfession": "神射手",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1158,
+    "atk": 1030,
+    "def": 143,
+    "res": 0,
+    "cost": 20,
+    "blockCnt": 1,
+    "bat": 2.7,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "礼炮·强制追思",
+    "spCost": 45,
+    "initSp": 26,
+    "duration": -1,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_18_b",
+    "stats": {
+     "maxHp": 1470,
+     "atk": 1294,
+     "def": 164,
+     "res": 0,
+     "cost": 20,
+     "blockCnt": 1,
+     "bat": 2.7,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "缪尔赛思": {
+   "chessId": "chess_char_6_19_a",
+   "charId": "char_249_mlyss",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "协防干员"
+   ],
+   "profession": "PIONEER",
+   "subProfession": "战术家",
+   "position": "RANGED",
+   "dmgType": "phys",
+   "attackKind": "ranged",
+   "canHitFly": true,
+   "stats": {
+    "maxHp": 1486,
+    "atk": 432,
+    "def": 98,
+    "res": 0,
+    "cost": 13,
+    "blockCnt": 1,
+    "bat": 1,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "浅层非熵适应",
+    "spCost": 42,
+    "initSp": 10,
+    "duration": 15,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_19_b",
+    "stats": {
+     "maxHp": 1893,
+     "atk": 517,
+     "def": 141,
+     "res": 0,
+     "cost": 13,
+     "blockCnt": 1,
+     "bat": 1,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  },
+  "帕拉斯": {
+   "chessId": "chess_char_6_20_a",
+   "charId": "char_485_pallas",
+   "tier": 6,
+   "chessType": "NORMAL",
+   "price": 4,
+   "sellPrice": 1,
+   "upgradeNum": 3,
+   "bonds": [
+    "灵巧",
+    "助力"
+   ],
+   "profession": "WARRIOR",
+   "subProfession": "教官",
+   "position": "MELEE",
+   "dmgType": "phys",
+   "attackKind": "melee",
+   "canHitFly": false,
+   "stats": {
+    "maxHp": 1413,
+    "atk": 602,
+    "def": 382,
+    "res": 0,
+    "cost": 15,
+    "blockCnt": 2,
+    "bat": 1.05,
+    "aspd": 100,
+    "respawnTime": 66,
+    "deployLimit": 1
+   },
+   "status": {
+    "phase": 2,
+    "level": 1,
+    "skillLevel": 4,
+    "equipLevel": 0
+   },
+   "skill": {
+    "name": "英勇的祝福",
+    "spCost": 55,
+    "initSp": 25,
+    "duration": 30,
+    "skillType": "MANUAL"
+   },
+   "golden": {
+    "chessId": "chess_char_6_20_b",
+    "stats": {
+     "maxHp": 1988,
+     "atk": 758,
+     "def": 430,
+     "res": 0,
+     "cost": 15,
+     "blockCnt": 2,
+     "bat": 1.05,
+     "aspd": 100,
+     "respawnTime": 66,
+     "deployLimit": 1
+    }
+   }
+  }
+ }
+}

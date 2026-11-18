@@ -1,0 +1,9 @@
+# Windows batch scripts MUST keep CRLF line endings on every checkout
+# (project red line: LF bats fail to run). Repo stores LF, checkout forces CRLF.
+*.bat text eol=crlf
+
+# Source / docs / data: normalize to LF in repo, native checkout.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
